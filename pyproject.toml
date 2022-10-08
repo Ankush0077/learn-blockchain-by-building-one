@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "learning-blockchain-by-building-one"
+version = "0.1.0"
+description = "This contains codes of chapter 2-6 from the book "Learn Blockchain by Building One: A Concise Path to Understanding Cryptocurrencies" by Daniel van Flymen"
+authors = ["Ankush Yadav <ankushyadav07@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyNaCl = "^1.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
